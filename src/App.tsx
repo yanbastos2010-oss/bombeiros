@@ -371,15 +371,15 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-start gap-2" data-testid="feature-plano-premium-2">
                   <Check className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">BÔNUS: Quizzes sobre Bombeiros</span>
+                  <span className="text-sm text-foreground">BÔNUS: Certificado de Conclusão</span>
                 </li>
                 <li className="flex items-start gap-2" data-testid="feature-plano-premium-3">
                   <Check className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">BÔNUS: Certificado de Conclusão</span>
+                  <span className="text-sm text-foreground">BÔNUS: Quiz Interativo</span>
                 </li>
                 <li className="flex items-start gap-2" data-testid="feature-plano-premium-4">
                   <Check className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
-                  <span className="text-sm text-foreground">BÔNUS: +10 Planos de Aula Prontos</span>
+                  <span className="text-sm text-foreground">BÔNUS: Manual de Prevenção de Incêndios em Casa e Escola</span>
                 </li>
                 <li className="flex items-start gap-2" data-testid="feature-plano-premium-5">
                   <Check className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
