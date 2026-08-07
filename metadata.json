@@ -1,0 +1,8 @@
+{
+  "name": "BOMBEIROS MIRINS",
+  "description": "+250 Dinâmicas Prontas para Bombeiros Mirins",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

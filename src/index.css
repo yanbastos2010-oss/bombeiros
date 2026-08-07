@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #ffffff;
+  --color-primary: #dc2626;
+  --color-primary-foreground: #ffffff;
+  --color-primary-border: #991b1b;
+  --color-muted-foreground: #64748b;
+  --color-card: #ffffff;
+  --color-card-border: #e2e8f0;
+  --color-card-foreground: #0f172a;
+  --color-chart-2: #dc2626;
+}
+
+:root {
+  --pv-container: 1200px;
+  --pv-cream: #fff8e7;
+  --pv-primary: #3f51b5;
+  --pv-success: #39b574;
+  --pv-radius: 16px;
+  --pv-font-heading: "Inter", sans-serif;
+  --pv-font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@keyframes pvPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.pv-pulse {
+  animation: pvPulse 2s infinite ease-in-out;
+}
+
